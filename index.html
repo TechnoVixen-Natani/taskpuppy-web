@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>TaskPuppy | Forensic Bio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* PRESERVED: THE ORGANIC PAW TRAIL */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; z-index: -1;
+            background-image: url('assets/paws.png'), url('assets/paws.png');
+            background-repeat: repeat;
+            background-size: 400px auto;
+            background-position: 0 0, 200px 250px;
+            filter: opacity(0.12) drop-shadow(0 0 0 #00ff66) drop-shadow(400px 0 0 #6600ff);
+        }
+
+        /* ALL ORIGINAL STYLES PRESERVED */
+        .app-container { text-align: center; }
+        .photo-container { display: flex; justify-content: center; gap: 10px; margin-bottom: 25px; margin-top: 10px; }
+        .profile-frame { flex: 0 0 100px; height: 100px; border-radius: 50%; border: 2px solid var(--text-green); overflow: hidden; position: relative; background: #111; box-shadow: 0 4px 8px rgba(0,0,0,0.5); }
+        .frame-label { position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.8); font-size: 8px; padding: 3px 0; font-weight: 900; color: var(--text-green); }
+        .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 25px; }
+        .stat-card { background: rgba(0, 255, 102, 0.05); border: 1px solid #333; padding: 15px; border-radius: 12px; }
+        .stat-val { display: block; font-size: 24px; font-weight: 900; color: var(--text-green); }
+        .tool-chip { display: inline-block; background: rgba(255, 255, 255, 0.05); border: 1px solid #444; padding: 6px 14px; border-radius: 20px; font-size: 12px; margin: 4px; color: var(--text-green); font-weight: bold; }
+        .github-btn { width: 100%; padding: 15px; background: #24292e; color: #fff; border-radius: 12px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 15px; }
+        .bio-text { line-height: 1.6; color: #ccc; font-size: 15px; margin-bottom: 15px; }
+        .highlight { color: var(--morning-gold); font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="photo-container">
+            <div class="profile-frame" style="border-color: #555;">
+                <img src="assets/550-me.jpg" style="width:100%; height:100%; object-fit: cover;">
+                <div class="frame-label" style="color:#aaa;">HISTORICAL</div>
+            </div>
+            <div class="profile-frame">
+                <img src="assets/no-muzzle.jpg" style="width:100%; height:100%; object-fit: cover;">
+                <div class="frame-label">CURRENT</div>
+            </div>
+            <div class="profile-frame" style="border-color: var(--accent-purple);">
+                <img src="assets/muzzle.jpg" style="width:100%; height:100%; object-fit: cover;">
+                <div class="frame-label" style="color: var(--accent-purple);">PUPFEM</div>
+            </div>
+        </div>
+
+        <div class="bio-header">
+            <h1 style="font-size: 34px; margin: 0 0 10px 0; line-height: 1.1;">🦴🐾Forensic Profile🐾🦴</h1>
+            <p style="color:var(--text-muted); font-size: 22px; margin: 0 auto 20px auto; line-height: 1.1;">
+                Literal Thinking | Technical Precision
+            </p>
+        </div>
+
+        <div class="stat-grid">
+            <div class="stat-card">
+                <span class="stat-val">300+ lbs</span>
+                <span style="font-size: 10px; color: #888; text-transform: uppercase;">Weight Loss Transformation</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-val">50 / 10</span>
+                <span style="font-size: 10px; color: #888; text-transform: uppercase;">Productivity Schedule</span>
+            </div>
+        </div>
+
+        <div class="card" style="text-align: left;">
+            <h2 style="color:var(--text-green); margin-top: 0;">Technical Philosophy</h2>
+            <p class="bio-text">
+                I am a highly detail-oriented professional with a unique cognitive profile that favors <span class="highlight">pattern recognition</span>, literal interpretation, and technical consistency.
+            </p>
+            <p class="bio-text">
+                As a neurodivergent individual, I possess a <span class="highlight">'sensory superpower'</span> for identifying subtle inconsistencies and logical glitches that others often overlook.
+            </p>
+
+            <button class="github-btn" onclick="window.open('https://github.com/TechnoVixen-Natani', '_blank')">
+                VIEW TECHNICAL REPOS
+            </button>
+        </div>
+
+       <div style="margin-top: 20px;">
+    <button onclick="window.open('https://audherapy.org', '_blank')" 
+            style="width:100%; background: #00FF66; color: #000; border: 3px solid #00CC52; padding: 22px; border-radius: 12px; font-weight: 900; font-size: 18px; cursor: pointer; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px;">
+        🌐 VISIT AUDHERAPY.ORG
+    </button>
+
+    <button onclick="window.location.href='https://technovixen-natani.github.io/merchant-hunt/'" 
+            style="width:100%; background: #9f15df; color: #000; border: 3px solid #7a0eb0; padding: 22px; border-radius: 12px; font-weight: 900; font-size: 18px; cursor: pointer; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px;">
+        🏹 ENTER MERCHANT HUNT
+    </button>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 60px;">
+    
+    <a href="https://audherapy.org/app.apk" download style="text-decoration: none;">
+        <button style="width:100%; background: #1E1E1E; color: #00FF66; border: 3px solid #00FF66; padding: 20px; border-radius: 12px; font-weight: 900; font-size: 14px; cursor: pointer;">
+            📲 DOWNLOAD APK
+        </button>
+    </a>
+    
+    <button style="width:100%; background: #1E1E1E; color: #9f15df; border: 3px solid #4d0a6b; padding: 20px; border-radius: 12px; font-weight: 900; font-size: 14px; opacity: 0.7;">
+        NEUROBUCKETS
+    </button>
+</div>
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+      kofiWidgetOverlay.draw('taskpuppyloona', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#5cb85c',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
+    </script>
+</body>
+</html>

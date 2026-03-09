@@ -1,0 +1,54 @@
+:root {
+    --bg-color: #121212;
+    --card-bg: #1E1E1E;
+    --text-main: #E0E0E0;
+    --cyan: #00E5FF;
+    --orange: #FF9100;
+    --purple: #9f15df;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 20px;
+    /* Paw Trail Background preserved from your bio app */
+    background-image: url('assets/paws.png');
+    background-size: 400px;
+    background-repeat: repeat;
+}
+
+.profile-frame {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid var(--cyan);
+    overflow: hidden;
+    position: relative;
+}
+
+.stat-card {
+    background: rgba(0, 229, 255, 0.05);
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.stat-val {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--cyan);
+}
+
+.merchant-btn {
+    width: 100%;
+    background: var(--purple);
+    color: #000;
+    padding: 20px;
+    border-radius: 12px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+}
